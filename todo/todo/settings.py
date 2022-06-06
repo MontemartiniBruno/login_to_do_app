@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wra-yq_j53d1%_o=_nj4t*@7tlz!a7t@ezccxkp$qc-x51fj-g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-todo-app-montemartini.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
